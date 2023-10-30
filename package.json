@@ -10,7 +10,36 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^3.3.2"
+    "astro": "^3.3.2",
+    "@pepabo-inhouse/adapter": "0.43.0",
+    "@pepabo-inhouse/app-bar": "0.43.0",
+    "@pepabo-inhouse/avatar": "0.43.0",
+    "@pepabo-inhouse/bottom-navigation": "0.43.0",
+    "@pepabo-inhouse/button": "0.43.0",
+    "@pepabo-inhouse/cell": "0.43.0",
+    "@pepabo-inhouse/checkbox": "0.43.0",
+    "@pepabo-inhouse/constants": "0.43.0",
+    "@pepabo-inhouse/container": "0.43.0",
+    "@pepabo-inhouse/description-list": "0.43.0",
+    "@pepabo-inhouse/flavor": "npm:@pepabo-inhouse/minne-flavor@0.2.0",
+    "@pepabo-inhouse/grid": "0.43.0",
+    "@pepabo-inhouse/header": "0.43.0",
+    "@pepabo-inhouse/icon": "0.43.0",
+    "@pepabo-inhouse/components-web": "0.43.0",
+    "@pepabo-inhouse/interactive-list": "0.43.0",
+    "@pepabo-inhouse/interactive-table": "0.43.0",
+    "@pepabo-inhouse/list": "0.43.0",
+    "@pepabo-inhouse/navigation-drawer": "0.43.0",
+    "@pepabo-inhouse/progress-indicator": "0.43.0",
+    "@pepabo-inhouse/radio": "0.43.0",
+    "@pepabo-inhouse/scrim": "0.43.0",
+    "@pepabo-inhouse/select": "0.43.0",
+    "@pepabo-inhouse/side-navigation": "0.43.0",
+    "@pepabo-inhouse/skeleton": "0.43.0",
+    "@pepabo-inhouse/table": "0.43.0",
+    "@pepabo-inhouse/textfield": "0.43.0",
+    "@pepabo-inhouse/thumbnail": "0.43.0",
+    "@pepabo-inhouse/tokens": "0.15.0"
   },
   "devDependencies": {
     "sass": "^1.69.4"

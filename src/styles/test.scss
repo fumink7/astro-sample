@@ -1,0 +1,19 @@
+@use '@pepabo-inhouse/components-web' as inhouse;
+
+// $default-option: (
+//   appearance: flat,
+//   brightness: light,
+//   color: neutral,
+//   size: m,
+//   shape: square,
+//   width: auto,
+// );
+
+.sample-button {
+  @include inhouse.button-style((color: 'neutral'));
+  padding: inhouse.get-spacing-size('l');
+}
+
+.hoge {
+  color: red;
+}
