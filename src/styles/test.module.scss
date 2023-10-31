@@ -1,0 +1,22 @@
+// @use '@pepabo-inhouse/components-web' as inhouse;
+@use '@pepabo-inhouse/button' as button;
+@use '@pepabo-inhouse/adapter' as adapter;
+
+// $default-option: (
+//   appearance: flat,
+//   brightness: light,
+//   color: neutral,
+//   size: m,
+//   shape: square,
+//   width: auto,
+// );
+
+.sampleButton {
+  @include button.style((color: 'neutral'));
+  padding: adapter.get-spacing-size('l');
+}
+
+.sampleText {
+  color: adapter.get-semantic-color('negative', 500);
+  font-size: adapter.get-font-size('l');
+}
