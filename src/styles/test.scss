@@ -1,4 +1,6 @@
-@use '@pepabo-inhouse/components-web' as inhouse;
+// @use '@pepabo-inhouse/components-web' as inhouse;
+@use '@pepabo-inhouse/button' as button;
+@use '@pepabo-inhouse/adapter' as adapter;
 
 // $default-option: (
 //   appearance: flat,
@@ -9,11 +11,12 @@
 //   width: auto,
 // );
 
-.sample-button {
-  @include inhouse.button-style((color: 'neutral'));
-  padding: inhouse.get-spacing-size('l');
+.sampleButton {
+  @include button.style((color: 'neutral'));
+  padding: adapter.get-spacing-size('l');
 }
 
-.hoge {
-  color: red;
+.sampleText {
+  color: adapter.get-semantic-color('positive', 500);
+  font-size: adapter.get-font-size('l');
 }
